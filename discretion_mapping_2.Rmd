@@ -1,0 +1,60 @@
+---
+title: Discretion Mapping Phase 2
+subtitle: Deconstructing and Analyzing Case Management and Supervision (test)
+author: Martin Gleason, MS
+date: "`r format(Sys.Date(), '%m.%d.%Y')`"
+output:
+  xaringan::moon_reader:
+    css: ["libs/remark-css/default.css", "core_presentation.css"]
+    self_contained: no
+    lib_dir: libs
+    seal: FALSE
+    nature:
+      beforeInit: "macros.js"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+```{r setup, include = TRUE, message=FALSE, echo = FALSE}
+library(tidyverse) 
+library(lubridate)
+library(kableExtra)
+library(viridis)
+library(plotly)
+library(xaringan)
+
+```
+class: title-slide
+class: center
+
+# Discretion Mapping: Phase 2
+.center[![](img/core_logo.png)]
+.bottom[.right[`r today() %>% format("%A, %B %d, %Y")`]]
+---
+# Discretion Mapping: Recap
+*  [Last  year, CORE presented findings on the discretion mapping project](https://martin-gleason.github.io/discretion-mapping/discretion_presentation.html)
+
+  * A high level view of where an individual officer’s choice may have an impact on a minor
+  
+  * An extremely conservative estimate indicated 45 discretion points through the system
+
+* The next step is to back a 1 year to 18 month internal examination of case management and supervisor strategies with regard to discretion points
+
+---
+# Discretion Mapping: Next Steps
+
+.center[![:scale 65%](img/discretion_mapping.gif)]
+
+* A new committee made of CORE and non-CORE members.
+
+* 12 - 18 month long project deconstructing and analzying case management and supervision policy, practices, and programs through an equity lens.
+
+
+
+
+
+
+
+
+
