@@ -31,35 +31,115 @@ class: center
 # Discretion Mapping: Phase 2
 .center[![](img/core_logo.png)]
 .bottom[.right[`r today() %>% format("%A, %B %d, %Y")`]]
+
 ---
 # Discretion Mapping: Recap
 *  [Last  year, CORE presented findings on the discretion mapping project](https://martin-gleason.github.io/discretion-mapping/discretion_presentation.html)
 
   * A high level view of where an individual officer’s choice may have an impact on a minor
+
+  * Categorized probation into three categories:
+     *  Pre-trial
+     *  Trial
+     *  Case-management/Supervision
+
+* An extremely conservative estimate indicated 45 discretion points through the system
   
-  * An extremely conservative estimate indicated 45 discretion points through the system
-
-* The next step is to back a 1 year to 18 month internal examination of case management and supervisor strategies with regard to discretion points
-
 ---
-# Discretion Mapping: Next Steps
-
-.center[![:scale 65%](img/discretion_mapping.gif)]
+# Next Steps
+.center[![](img/discretion_mapping.gif)]
 
 * A new committee made of CORE and non-CORE members.
+* 12 - 18 month long project 
+* Deconstructing and analzying
+  * Case management and supervision 
+  * Policy, practices, and programs through an equity lens
+ 
+---
+# Case Management: Conceptualized
 
-* 12 - 18 month long project deconstructing and analzying case management and supervision policy, practices, and programs through an equity lens.
+.pull-left[![](img/Diagram of Discretion.jpg)]
+.pull-right[
+
+* Each box represents a process
+
+* Center diamond represents choices and decisions to be made
+
+* Case planning box requires additional scrutiny due to new policies, procedurs, and assessments
+]
+
+---
+# Focus: Case Management
+.pull-left[
+* Regarded as the central aspect of field work
+
+* Not the first, or last, step in this section
+
+* Multiple steps
+  *  Some structured, some unstructured
+  
+* Complex
+
+* Data rich
+]
+.pull-right[![](img/case_management.jpg)]
 
 
 ---
-# The Ask: Diagram
-.center[![:scale 85%  ](img/Diagram of Discretion.jpg)]
+# Project Basics
 
+* **Mission:** To map and measure discretion points within the case planning/supervision section of the probation process
 
+* **Resources:** What we need to complete the process
 
+* **Method:** How we will complete the process
 
+* **Timeline:** Deliverables, milestones and tangible steps forward
 
+---
+# Resources
+.pull-left[
+* **Staff**
+  * A Team of 8
+      *  Mix of support, specialized, field, management
+      *  Commit to this project for up to 18 months
+  * Recognition of the work by their section/deputy/supervisor
+     * ie: Give them leeway to get this work done]
+.pull-right[
+* **Data**
+  * Socials
+  * Case Plans
+  * Risk Assessments
+  * Referrals
+  * Case notes
+  * Outcomes  
+* **Space:**
+  * For physical and digital files
+  * Meetings
+  * Communication]
+  
+  
+---
+# Methods
+.pull-left[
+* Create the map:
+  * Deconstruct each "box"
+      * Map each step to determine:
+          * What we can measure
+              * Factors in each step
+              * Data we have
+              * Data we want
+          * Policies and procedures for each step]
 
+.pull-right[* Document the map
+  * In a [real database](https://aws.amazon.com/rds/postgresql/)
+  * Anonymize PO and Client Data
+  * Will allow for multiple users to:
+      * Document
+      * Analyze
+      * Transform data
+      * Easily communicate findings]
+---
 
 
 
