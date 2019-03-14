@@ -57,16 +57,21 @@ class: center
  
 ---
 # Case Management: Conceptualized
+.pull-left[
 
-.pull-left[![](img/Diagram of Discretion.jpg)]
-.pull-right[
-
-* Each box represents a process
+![](img/Diagram of Discretion.png)]
+.pull-right[* Each box represents a process
 
 * Center diamond represents choices and decisions to be made
 
 * Case planning box requires additional scrutiny due to new policies, procedurs, and assessments
 ]
+
+---
+### Case Management/Supervision Diagram
+
+.center[.middle[![:scale 95%](img/Diagram of Discretion.jpg)]]
+
 
 ---
 # Focus: Case Management
@@ -139,8 +144,35 @@ class: center
       * Analyze
       * Transform data
       * Easily communicate findings]
+      
 ---
+# Methods: Radical Transparency
+
+*In order to cut through the noise of other projects, initiatives, and roll-outs, this team will have to be clear, constent, and consistent in communicating our data, methods, successes and failures with the department.* 
+  
 
 
+???
+can go to 55% easily
 
+---
+# Methods: Communication Tools
+.pull-left[
+* A detailed communication plan
 
+* Technology:
+  * [Slack](https://slack.com)
+  * [Amazon Web Services](https://aws.amazon.com/rds/postgresql/)
+  * [Github/Github pages](https://github.com)
+  
+* [Newsletter](https://mailchimp.com)
+
+* Data Walks
+
+* Regular, open meetings
+]
+
+.pull-right[
+</br>
+</br>
+![](img/communication.gif)]
