@@ -81,9 +81,9 @@ font-family: 'Raleway', sans-serif;
 
 h4{
 font-family: 'Raleway', sans-serif;
-	color: var(--blue);
+	color: var(--coreRed);
 	text-align: left;
-	font-size: .55em;
+	font-size: 1.45em;
 		text-rendering: optimizelegibility !important;
 }
 
@@ -133,17 +133,7 @@ a:visited{
 	width: 10%;
 	}
 
-.left{
-	text-align:left !important;
-	}
-	
-.center{
-	text-align:center !important;
-	}
-	
-.	right{
-	text-align: right;
-	}
+
 
 .footnote{
 	color:#193993;
