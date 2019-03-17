@@ -1,4 +1,4 @@
-# discretion_mapping_phase2
+# Discretion Mapping Phase 2: Case Management Deep Dive
 Script and webpage for the Discretion Mapping Project
 
 Github is a free service that allows for people to work on the same project. Because the Discretion Mapping Project will use a variety of methods to capture, transfrom, and analyze collected data, having one place to store all of our code and methods will allow for better communication and quality control.
