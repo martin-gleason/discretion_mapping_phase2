@@ -103,9 +103,6 @@ a:hover{
 	color: var(--gold);
 	}
 
-a:visited{
-	color: var(--black);
-}
 
 .runner {
 	background-color: #F77A00;

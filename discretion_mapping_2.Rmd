@@ -27,7 +27,6 @@ library(xaringan)
 ```
 # Discretion Mapping: Phase 2 
 
-
 #### *Deconstructing and Analyzing Case Management and Supervision in the Cook County Juvenile Probation System* 
 
 .center[![:scale 50%](img/core_logo.png)]
@@ -74,7 +73,6 @@ library(xaringan)
 
 .center[.middle[![:scale 95%](img/Diagram of Discretion.jpg)]]
 
-
 ---
 # Focus: Case Management
 .pull-left[
@@ -90,7 +88,6 @@ library(xaringan)
 * Data rich
 ]
 .pull-right[![](img/case_management.jpg)]
-
 
 ---
 # Project Basics
@@ -125,11 +122,10 @@ library(xaringan)
   * Meetings
   * Communication]
   
-  
 ---
 # Methods
 .pull-left[
-* Create the map:
+* **Create the map:**
   * Deconstruct each "box"
       * Map each step to determine:
           * What we can measure
@@ -138,7 +134,7 @@ library(xaringan)
               * Data we want
           * Policies and procedures for each step]
 
-.pull-right[* Document the map
+.pull-right[* **Document the map:**
   * In a [real database](https://aws.amazon.com/rds/postgresql/)
   * Anonymize PO and Client Data
   * Will allow for multiple users to:
@@ -178,7 +174,6 @@ library(xaringan)
 * Support CORE
 * Join the team
 * Ensure our discretion makes a difference
-
 
 .center[![](img/team_awesome.gif)]
 
