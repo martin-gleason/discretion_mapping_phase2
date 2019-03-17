@@ -44,14 +44,14 @@ library(xaringan)
      *  Trial
      *  Case-management/Supervision
 
-* An extremely conservative estimate indicated 45 discretion points through the system
+* A conservative estimate indicated 45 discretion points through the system
   
 ---
 # Next Steps
 .center[![](img/discretion_mapping.gif)]
 
 * A new committee made of CORE and non-CORE members.
-* 12 - 18 month long project 
+* 12 - 18 month project 
 * Deconstructing and analyzing
   * Case management and supervision 
   * Policy, practices, and programs through an equity lens
@@ -104,7 +104,7 @@ library(xaringan)
 # Resources
 .pull-left[
 * **Staff**
-  * A Team of 8
+  * Team of 8
       *  Mix of support, specialized, field, management
       *  Commit to this project for up to 18 months
   * Recognition of the work by their section/deputy/supervisor
@@ -125,19 +125,17 @@ library(xaringan)
 ---
 # Methods
 .pull-left[
-* **Create the map:**
-  * Deconstruct each "box"
-      * Map each step to determine:
-          * What we can measure
-              * Factors in each step
-              * Data we have
-              * Data we want
-          * Policies and procedures for each step]
+* **Deconstruct each process box**
+  * Collect what we can measure
+     * Factors in each step  
+     * Data we have
+     * Data we want
+  * Policies and procedures for each step]
 
 .pull-right[* **Document the map:**
   * In a [real database](https://aws.amazon.com/rds/postgresql/)
   * Anonymize PO and Client Data
-  * Will allow for multiple users to:
+  * Will allow for multiple users to **D.A.T.E**:
       * Document
       * Analyze
       * Transform data
@@ -169,6 +167,18 @@ library(xaringan)
       * Open 
       * Document what we have done and how we have done it
       
+---
+# Timeline
+
+.center[![:scale 35%](img/timeframe.gif)]
+* First deliverables
+  * Communication plan
+  * Work breakdown
+     * An estimate length of each collection/analysis phase
+* Major deliverables every 3 months
+* Monthly newsletter
+* Bi-Weekly Check in meetings
+
 ---
 # Join the Discretion Mapping Team
 * Support CORE
