@@ -44,13 +44,13 @@ library(xaringan)
      *  Trial
      *  Case-management/Supervision
 
-* A conservative estimate indicated 45 discretion points through the system
+* A conservative estimate indicated 45 discretion points throughout the system
   
 ---
 # Next Steps
 .center[![](img/discretion_mapping.gif)]
 
-* A new committee made of CORE and non-CORE members.
+* A new sub-committee made of CORE and non-CORE members.
 * 12 - 18 month project 
 * Deconstructing and analyzing
   * Case management and supervision 
@@ -76,19 +76,16 @@ library(xaringan)
 ---
 # Focus: Case Management
 .pull-left[
-* Regarded as the central aspect of field work
-
-* Not the first, or last, step in this section
-
-* Multiple steps
-  *  Some structured, some unstructured
-  
-* Complex
-
+* Regarded as the central aspect of field work</br> </br>
+* Not the first, or last, step in this framework</br> </br>
 * Data rich
-]
+  * Documents
+  * Outcomes</br> </br>
+* The task is to identify:
+  * Data-sources
+  * Discretion Points
+  * Potential outcomes]
 .pull-right[![](img/case_management.jpg)]
-
 ---
 # Project Basics
 
@@ -106,9 +103,8 @@ library(xaringan)
 * **Staff**
   * Team of 8
       *  Mix of support, specialized, field, management
-      *  Commit to this project for up to 18 months
-  * Recognition of the work by their section/deputy/supervisor
-     * i.e.: Give them leeway to get this work done]
+      *  Commit to this project for up to 18 months</br> </br>
+  * Time to complete this work, thanks to MOAT]
 .pull-right[
 * **Data**
   * Socials
@@ -116,12 +112,7 @@ library(xaringan)
   * Risk Assessments
   * Referrals
   * Case notes
-  * Outcomes  
-* **Space:**
-  * For physical and digital files
-  * Meetings
-  * Communication]
-  
+  * Outcomes]
 ---
 # Methods
 .pull-left[
@@ -129,7 +120,7 @@ library(xaringan)
   * Collect what we can measure
      * Factors in each step  
      * Data we have
-     * Data we want
+     * Data we want</br> </br>
   * Policies and procedures for each step]
 
 .pull-right[* **Document the map:**
@@ -168,14 +159,16 @@ library(xaringan)
       * Document what we have done and how we have done it
       
 ---
-# Timeline
+### Delivereables and Timeline
 
 .center[![:scale 35%](img/timeframe.gif)]
+--
+
 * First deliverables
   * Communication plan
   * Work breakdown
      * An estimate length of each collection/analysis phase
-* Major deliverables every 3 months
+* Major deliverables every 3 months thereafter
 * Monthly newsletter
 * Bi-Weekly Check in meetings
 
