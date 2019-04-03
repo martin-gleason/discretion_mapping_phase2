@@ -1,17 +1,35 @@
 ---
 title: "Discretion Mapping Project"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: united
+    
 ---
+
 </br>
 </br>
+
 <style>
   body {background-color: #E6E6FA;}
 </style>
+
 <style>
  img {display:block; margin-left:auto; margin-right: auto}
-</style>
+</style
+----
+
+
+# Iron Man
 ![](../img/galaga.gif)
 
+Begining the transformation from solo to team player.
 
+
+
+
+
+# Logo
+text text
 ![](../img/core_logo.png)
-</style>
