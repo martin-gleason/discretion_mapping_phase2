@@ -1,6 +1,6 @@
 ---
 title: Discretion Mapping Phase 2
-subtitle: Deconstructing and Analyzing Case Management and Supervision (test)
+subtitle: Deconstructing and Analyzing Case Management and Supervision
 author: Martin Gleason, MS
 date: "`r format(Sys.Date(), '%m.%d.%Y')`"
 output:
