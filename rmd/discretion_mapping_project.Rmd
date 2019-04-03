@@ -1,5 +1,6 @@
 ---
 title: "Discretion Mapping Project"
 author: "Martin Gleason, MS"
+output: html_document
 ---
 ![](../img/galaga.gif)
