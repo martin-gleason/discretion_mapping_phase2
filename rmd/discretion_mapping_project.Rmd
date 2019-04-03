@@ -3,9 +3,11 @@ title: "Discretion Mapping Project"
 output: 
   html_document:
     toc: true
-    toc_float: true
-    theme: united
-    
+    toc_float:
+        collapsed: true
+        number_sections: true
+    toc_depth: 1
+
 ---
 
 </br>
@@ -13,21 +15,39 @@ output:
 
 <style>
   body {background-color: #E6E6FA;}
+  img {display:block; margin-left:auto; margin-right: auto;}
 </style>
 
-<style>
- img {display:block; margin-left:auto; margin-right: auto}
-</style
-----
+*The following is for testing purposes. It is testing: *
 
+* netlify
+* custom css
+* table of contents
+* rstudio
 
-# Iron Man
+*I know it's a hot mess.*
+
+# Iron Man 
+test
 ![](../img/galaga.gif)
 
-Begining the transformation from solo to team player.
+## Begining the transformation from solo to team player.
+  1 and 2 he is solo or duo
+  mostly solo
+  
+## Iron 1, iron 2
+  tony start built this in a cave<br>
+  Rhodey
+![](../img/warrocket.gif)
+  Rhodey is in the suit, rocket is the racoon.
+  
+## iron 3 = tony stark movie
 
 
-
+## avengers
+## one is good
+## two is not
+## he is wrong in civil war
 
 
 # Logo
