@@ -1,6 +1,17 @@
 ---
 title: "Discretion Mapping Project"
-author: "Martin Gleason, MS"
 output: html_document
 ---
+</br>
+</br>
+<style>
+  body {background-color: #E6E6FA;}
+</style>
+<style>
+ img {display:block; margin-left:auto; margin-right: auto}
+</style>
 ![](../img/galaga.gif)
+
+
+![](../img/core_logo.png)
+</style>
