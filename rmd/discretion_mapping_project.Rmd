@@ -1,5 +1,6 @@
 ---
-title: "Discretion Mapping Project"
+title: "Discretion Mapping 2.0"
+subtitle: "Overivew and Cost Benefit Analysis of Pre-Trial and Case Management"
 output: 
   html_document:
     toc: true
@@ -10,46 +11,236 @@ output:
 
 ---
 
-</br>
-</br>
+# Summary
+The next phase of the discretion mapping project will be a deep dive into either pre-trial or case management, two of the categories that were established in the [first phase of the discretion mapping project.](https://martin-gleason.github.io/discretion-mapping/discretion_presentation.html#1) There is a third category, the trial phase, but that has been excluded due to limited ability for officers to have significant control or affect change during trials and hearings.
 
-<style>
-  body {background-color: #E6E6FA;}
-  img {display:block; margin-left:auto; margin-right: auto;}
-</style>
+Both categories can have a significant impact on the court. To that end, the discretion points for each category are listed below. Additionally, a cost-benefit analysis (CBA) has been conducted to help guide the discussion on the selection process. Neither the discretion points nor the CBA are meant to be complete. They are comprehensive and guide posts to additional discretion points, but the items are not weighted. The discussion stemming from these items will be the final deciding factor regarding next steps. 
 
-*The following is for testing purposes. It is testing: *
+## Recommendations
+It is the recommendation of this officer that the second phase of the discretion mapping project focus on case management for the next 12-18 months, staffed by a total of 8 court staff. Half of the staff should come directly from C.O.R.E.
 
-* netlify
-* custom css
-* table of contents
-* rstudio
+# Meta Factors
+It should be noted that regardless of the focus area, this project will have to examine specific process questions; specifically, questions on how POs build rapport, interview families, conduct visits, summarize interactions, and present information to the court. It would be possible to do an entire project around these “meta” factors; however, lasting change maybe easier when these factors are examined within the context of their use. 
 
-*I know it's a hot mess.*
+# Pre-Trial: Discretion Total
 
-# Iron Man 
-test
-![](../img/galaga.gif)
+*Total Points: 10*
 
-## Begining the transformation from solo to team player.
-  1 and 2 he is solo or duo
-  mostly solo
-  
-## Iron 1, iron 2
-  tony start built this in a cave<br>
-  Rhodey
-![](../img/warrocket.gif)
-  Rhodey is in the suit, rocket is the racoon.
-  
-## iron 3 = tony stark movie
+**Includes the following probation units:**
 
+1. Detention Screening
+    a. Discretion for scores between 9-14
+        i) This item should be in JEMS
+            A.  Does it exist?
+            B.  Has it been analyzed?
+            
+**Total Discretion Points: 2**
 
-## avengers
-## one is good
-## two is not
-## he is wrong in civil war
+2. Diversion Programming
+    a. Diversion officers have discretion about what programs are ordered
+       i) How we add new programs is not answered clearly
+       ii) Data is available based on individual officer’s use of JEMS
+    b. ASA’s are not putting in all the information they have regarding discretion
+        i) That agency has a majority of the discretion in deciding who is eligible for diversion
 
+**Total Discretion Points: 2**
 
-# Logo
-text text
+3. Electronic Monitoring
+    a. Judge has discretion for the order
+    b. PO Has
+        i) Granting movement
+        ii) The definition of success
+
+**Total Discretion Points: 2**
+
+4. Pre-trial Services/Expeditor
+    a. Overnight holds
+    b. Long term detention
+    c. How much to help with DAD
+    d. Narrative Elements
+        i) Case notes
+        ii) Evidence used/cited for detention
+            A.  “Expeditor discretion, moving forward, is not just about stepping a kid out of detention"
+          
+**Total Discretion Points: 4**
+
+### Measurable discretion points for Pre-trial: 10
+
+# Supervision: Discretion Points Total
+
+**Total: ~62**
+
+1. OYAS
+    a. Needs to be evaluated like YASI.
+    b. Includes
+        i) Interviewing skills
+       ii)	Synthesis of information
+       iii) Presentation of information
+        iv) Discretion per category
+    c. YASI was found to have a number of discretion points even though it is an [actuarial tool](tool)
+    
+*Total discretion points: ~ 7*
+
+2. Social Investigation
+    a. Old (YASI) vs new (JRA) social
+       i) The new format has not been assessed. These points stem from the analysis of the previous soial template.
+    b. Assignment to officer by SPO
+<!---*Total Discretion points: 1* --->
+    c. Records: 
+       i) Which records
+        ii) When are they reviewed
+        iii) How are they synthesized into the case
+<!--ii.	Total Discretion points: 3-->
+    d. Interviews
+        i) Rapport building
+       ii) Context of interview
+       iii) Style of interview
+<!--ii) Total Discretion points: 3-->
+    e. Writing
+        i) What is in the document
+        ii) How is it presented in the document
+<!--Total Discretion points: 2-->
+    f. Family Section
+        i) Family composition
+        ii) make-up
+        iii) impact on minor 
+<!--ii) Total Discretion points: 3-->
+    g. Skills
+        i)	Consequential thinking skills, 
+       ii)  Behaviors
+        iii) Attitudes
+        iv) Feelings
+<!--ii. Total Discretion points: 4 -->
+    h. Alcohol & Drugs
+        i) Minor’s use of substances
+        ii) Attitudes towards subtnaces
+<!--i) Total Discretion points: 3--->
+    i. Physical & Mental Health
+        i) No discretion points, but serious concerns regarding the purpose and framing of these questions
+    j. Attitudes
+        i) Personal beliefs and attitudes
+<!-- ii) Total Discretion points: 3 -->
+    k. Community & Peers
+        i) Relationshiop to friends 
+        ii) Relationship to their community
+<<!--ii. Total Discretion points: 3-->
+    l. SPO Review
+        i) Is the social reviewed?
+        ii) How is feedback given to officer
+<!--iii.	Total Discretion points: 2-->sd
+    m. Presentation
+        i) What is summarized
+        ii)	What is emphasized
+        iii) Summary
+              A.  PO can decide what to summarize and what context to place the information
+              B.  Subjective
+    n. Recommendations
+        i) Based on the social
+        ii) YASI/JRA
+       iii) Discretion of
+           A.  State's Attorney
+           B.  Public Defender/Private Attorney
+      
+### Subtotal of Disceretion Points: 32**
+
+o.	Total Discretion points for OYAS: 34
+3.	Probation Order
+a.	Which sections are prioritized?
+b.	Total Discretion points: 2
+4.	Case Management
+a.	Case Planning
+i.	Who is involved, building rapport and buy in
+ii.	How is progress reported to the court
+iii.	Total Discretion points: 2
+b.	Visits
+i.	When visits occur, who is visited, and how are they structured
+ii.	Total Discretion points: 4 
+c.	Case Plan/Execution
+i.	What activities is a young person referred to
+1.	Intervention, programming, etc.
+ii.	Whose needs are being addressed
+1.	Youth, parent, PO, SPO, Department, or School’s priority
+iii.	Total Discretion points: 2
+d.	Programming
+i.	Documenting quality/Notes
+1.	Total Discretion Points: 1
+ii.	Community Service
+1.	Hours
+2.	Who is it for?
+3.	Total Discretion Points:  1
+iii.	Services
+1.	Type of services
+a.	Which agency receives the referral?
+2.	Prioritization of service follow-through
+3.	Professional judgement regarding necessity of service
+a.	E.g.: JSO > Drug treatment?
+4.	GSST
+a.	What are their methods?
+b.	What are their outcomes?
+5.	Total Discretion Points: 4
+e.	Sanctions/Incentives
+i.	How are violations of court ordered handled
+1.	Formal
+2.	Informal
+ii.	How is progress incentivized
+1.	Is it incentivized?
+iii.	How is it discussed with the rest of the court?
+iv.	When is the case escalated to IPS?
+f.	Total Discretion Points: 4
+g.	IPS
+i.	Who receives IPS?
+ii.	How do they judge success/failures
+iii.	How do they incentivize/sanction?
+iv.	Total Discretion Points: 3
+h.	Total for case management: 21
+
+ 
+Cost/Benefit of Pre-Trial
+
+Cost:
+•	Bulk of field work is in Case Management
+•	Changes in “pre-trial” work make comparing practice and policy difficult
+•	Data questions
+o	May not be as historical as case work
+•	Difficult to conceptualize due to Judges’ role
+o	I.e.: Judges like ordering pre-trial services and someone has to step up, even if that is outside the purview of a particular unit
+
+ Benefit:
+•	Appear to be the trend of court services
+•	Veteran POs who have experience case management as well as pre-trial can be good sources of info
+•	Still developing policy, practices, and philosophy may make culture change easier
+•	Less tasks in comparison to supervision means faster answers to CORE questions
+•	Size of units allow for easy evaluation of unit attitudes and “institutional knowledge”
+
+Cost/Benefit of Supervision
+Cost:
+•	More than 6x the discretion points of Pre-Trial means
+o	Heavy lift
+o	Many tasks mean lots of conceptualization
+o	More planning for:
+	Interviews
+	Data evaluation
+	Analysis
+•	Field officers are already being scrutinized
+o	RFK
+o	DCPOs
+o	JRA
+•	Number of units/divisions means significant differences in
+o	Institutional knowledge
+o	Office-culture issues
+o	Wide geographical areas
+•	Buy-in from staff will be low
+
+Benefits:
+•	This is our “brand”
+•	Certain costs can be transformed into benefits:
+o	Officers being scrutinized can be mitigated/transformed by CORE’s
+	Radical transparency
+	Regular and open communication
+	Acknowledgement of field difficulties
+	Pointed solutions
+•	Significant areas of investigation mean the task can be deconstructed into smaller tasks
+•	High levels of difficult imply significant reward for completion
+o	The return on this investment would be transformative to the entire department
+
 ![](../img/core_logo.png)
