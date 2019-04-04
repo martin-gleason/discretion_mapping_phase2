@@ -7,9 +7,10 @@ output:
     toc_float:
         collapsed: true
         number_sections: true
-    toc_depth: 1
+    toc_depth: 2
 
 ---
+![](../img/core_logo.png)
 
 # Summary
 The next phase of the discretion mapping project will be a deep dive into either pre-trial or case management, two of the categories that were established in the [first phase of the discretion mapping project.](https://martin-gleason.github.io/discretion-mapping/discretion_presentation.html#1) There is a third category, the trial phase, but that has been excluded due to limited ability for officers to have significant control or affect change during trials and hearings.
@@ -22,12 +23,11 @@ It is the recommendation of this officer that the second phase of the discretion
 # Meta Factors
 It should be noted that regardless of the focus area, this project will have to examine specific process questions; specifically, questions on how POs build rapport, interview families, conduct visits, summarize interactions, and present information to the court. It would be possible to do an entire project around these “meta” factors; however, lasting change maybe easier when these factors are examined within the context of their use. 
 
-# Pre-Trial: Discretion Total
+# Pre-Trial: Discretion Points Total
 
 *Total Points: 10*
 
 **Includes the following probation units:**
-
 1. Detention Screening
     a. Discretion for scores between 9-14
         i) This item should be in JEMS
@@ -70,6 +70,10 @@ It should be noted that regardless of the focus area, this project will have to 
 
 **Total: ~62**
 
+## Estimates:
+
+*There is still debate on whether discretion points count as one for major categories or all sub-points. To this end, each total and subtotal should be considered to be an estimate.* 
+
 1. OYAS
     a. Needs to be evaluated like YASI.
     b. Includes
@@ -79,55 +83,45 @@ It should be noted that regardless of the focus area, this project will have to 
         iv) Discretion per category
     c. YASI was found to have a number of discretion points even though it is an [actuarial tool](tool)
     
-*Total discretion points: ~ 7*
+*Subtotal discretion points: ~ 7*
 
 2. Social Investigation
-    a. Old (YASI) vs new (JRA) social
+    a. Old (YASI) vs New (JRA)format
        i) The new format has not been assessed. These points stem from the analysis of the previous soial template.
     b. Assignment to officer by SPO
-<!---*Total Discretion points: 1* --->
     c. Records: 
        i) Which records
         ii) When are they reviewed
         iii) How are they synthesized into the case
-<!--ii.	Total Discretion points: 3-->
     d. Interviews
         i) Rapport building
        ii) Context of interview
        iii) Style of interview
-<!--ii) Total Discretion points: 3-->
     e. Writing
         i) What is in the document
         ii) How is it presented in the document
-<!--Total Discretion points: 2-->
     f. Family Section
         i) Family composition
         ii) make-up
         iii) impact on minor 
-<!--ii) Total Discretion points: 3-->
     g. Skills
         i)	Consequential thinking skills, 
        ii)  Behaviors
         iii) Attitudes
         iv) Feelings
-<!--ii. Total Discretion points: 4 -->
     h. Alcohol & Drugs
         i) Minor’s use of substances
         ii) Attitudes towards subtnaces
-<!--i) Total Discretion points: 3--->
     i. Physical & Mental Health
         i) No discretion points, but serious concerns regarding the purpose and framing of these questions
     j. Attitudes
         i) Personal beliefs and attitudes
-<!-- ii) Total Discretion points: 3 -->
     k. Community & Peers
         i) Relationshiop to friends 
         ii) Relationship to their community
-<<!--ii. Total Discretion points: 3-->
     l. SPO Review
         i) Is the social reviewed?
         ii) How is feedback given to officer
-<!--iii.	Total Discretion points: 2-->sd
     m. Presentation
         i) What is summarized
         ii)	What is emphasized
@@ -141,9 +135,8 @@ It should be noted that regardless of the focus area, this project will have to 
            A.  State's Attorney
            B.  Public Defender/Private Attorney
       
-### Subtotal of Disceretion Points: 32**
+### Subtotal of Disceretion Points: 32
 
-o.	Total Discretion points for OYAS: 34
 3.	Probation Order
 a.	Which sections are prioritized?
 b.	Total Discretion points: 2
@@ -243,4 +236,3 @@ o	Officers being scrutinized can be mitigated/transformed by CORE’s
 •	High levels of difficult imply significant reward for completion
 o	The return on this investment would be transformative to the entire department
 
-![](../img/core_logo.png)
