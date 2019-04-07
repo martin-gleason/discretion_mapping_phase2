@@ -8,6 +8,7 @@ output:
         collapsed: true
         number_sections: true
     toc_depth: 2
+    css: core_presentation.css
 
 ---
 ![](../img/core_logo.png)
@@ -27,7 +28,6 @@ It should be noted that regardless of the focus area, this project will have to 
 
 *Total Points: 10*
 
-**Includes the following probation units:**
 1. Detention Screening
     a. Discretion for scores between 9-14
         i) This item should be in JEMS
