@@ -126,8 +126,8 @@ It should be noted that regardless of the focus area, this project will have to 
         i) What is summarized
         ii)	What is emphasized
         iii) Summary
-              A.  PO can decide what to summarize and what context to place the information
-              B.  Subjective
+              A.  PO can decide what to summarize 
+              B.  How to frame the case
     n. Recommendations
         i) Based on the social
         ii) YASI/JRA
@@ -137,102 +137,102 @@ It should be noted that regardless of the focus area, this project will have to 
       
 ### Subtotal of Disceretion Points: 32
 
-3.	Probation Order
-a.	Which sections are prioritized?
-b.	Total Discretion points: 2
-4.	Case Management
-a.	Case Planning
-i.	Who is involved, building rapport and buy in
-ii.	How is progress reported to the court
-iii.	Total Discretion points: 2
-b.	Visits
-i.	When visits occur, who is visited, and how are they structured
-ii.	Total Discretion points: 4 
-c.	Case Plan/Execution
-i.	What activities is a young person referred to
-1.	Intervention, programming, etc.
-ii.	Whose needs are being addressed
-1.	Youth, parent, PO, SPO, Department, or School’s priority
-iii.	Total Discretion points: 2
-d.	Programming
-i.	Documenting quality/Notes
-1.	Total Discretion Points: 1
-ii.	Community Service
-1.	Hours
-2.	Who is it for?
-3.	Total Discretion Points:  1
-iii.	Services
-1.	Type of services
-a.	Which agency receives the referral?
-2.	Prioritization of service follow-through
-3.	Professional judgement regarding necessity of service
-a.	E.g.: JSO > Drug treatment?
-4.	GSST
-a.	What are their methods?
-b.	What are their outcomes?
-5.	Total Discretion Points: 4
-e.	Sanctions/Incentives
-i.	How are violations of court ordered handled
-1.	Formal
-2.	Informal
-ii.	How is progress incentivized
-1.	Is it incentivized?
-iii.	How is it discussed with the rest of the court?
-iv.	When is the case escalated to IPS?
-f.	Total Discretion Points: 4
-g.	IPS
-i.	Who receives IPS?
-ii.	How do they judge success/failures
-iii.	How do they incentivize/sanction?
-iv.	Total Discretion Points: 3
-h.	Total for case management: 21
+3. Probation Order
+    a. Which sections are prioritized?
+    
+### Subtotal of Discretion Points: 1
 
- 
-Cost/Benefit of Pre-Trial
+4. Case Management
+    a. Case Planning
+        i) Who is involved, building rapport and buy in
+        ii) How is progress reported to the court
+        iii) Total Discretion points: 2
+    b. Visits
+        i) When visits occur
+        ii) Who is visited
+        iii) How are visits structured
+    c. Case Plan/Execution
+        i) What activities is a young person referred to
+            A.  Intervention, programming, etc
+            B.  Whose needs are being addressed?
+                1.  *Youth*
+                2.  *Parent*
+                3.  *PO*
+                4.  *SPO*
+                5.  *Department*
+                6.  *School’s priority*
+    d. Programming
+        i) Documenting quality/Notes
+        ii) Community Service
+          A.  Hours
+          B.  Who is it for?
+        iii) Services
+            A.  Type of services
+                1.  Which agency receives the referral?
+                2.  Prioritization of service follow-through
+                3.  Professional judgement regarding necessity of 
+                4.  GSST
+                  a.  What are their methods?
+                  b.  What are their outcomes?
+    e. Sanctions/Incentives
+        i) How are violations of court ordered handled
+            A.  Formal
+            B.  Informal
+            C.  Sanctions program
+        ii) How is progress incentivized
+            A.  Is it incentivized?
+        iii) How is it discussed with the rest of the court?
+        iv) When is the case escalated to IPS?
+    g. IPS
+        i) Who receives IPS?
+        ii) How do they judge successes and failures
 
-Cost:
-•	Bulk of field work is in Case Management
-•	Changes in “pre-trial” work make comparing practice and policy difficult
-•	Data questions
-o	May not be as historical as case work
-•	Difficult to conceptualize due to Judges’ role
-o	I.e.: Judges like ordering pre-trial services and someone has to step up, even if that is outside the purview of a particular unit
+### Subtotal of Discretion Points: ??
 
- Benefit:
-•	Appear to be the trend of court services
-•	Veteran POs who have experience case management as well as pre-trial can be good sources of info
-•	Still developing policy, practices, and philosophy may make culture change easier
-•	Less tasks in comparison to supervision means faster answers to CORE questions
-•	Size of units allow for easy evaluation of unit attitudes and “institutional knowledge”
+# Cost/Benefit of Pre-Trial
 
-Cost/Benefit of Supervision
-Cost:
-•	More than 6x the discretion points of Pre-Trial means
-o	Heavy lift
-o	Many tasks mean lots of conceptualization
-o	More planning for:
-	Interviews
-	Data evaluation
-	Analysis
-•	Field officers are already being scrutinized
-o	RFK
-o	DCPOs
-o	JRA
-•	Number of units/divisions means significant differences in
-o	Institutional knowledge
-o	Office-culture issues
-o	Wide geographical areas
-•	Buy-in from staff will be low
+## Costs:
+* Bulk of field work is in Case Management
+*  Changes in “pre-trial” work make comparing practice and policy difficult
+* Pre-trial is not as historically important as case work
+* Difficult to conceptualize due to Judges’ role
+  * Judges like ordering pre-trial services even if there are no officers to provide those services
 
-Benefits:
-•	This is our “brand”
-•	Certain costs can be transformed into benefits:
-o	Officers being scrutinized can be mitigated/transformed by CORE’s
-	Radical transparency
-	Regular and open communication
-	Acknowledgement of field difficulties
-	Pointed solutions
-•	Significant areas of investigation mean the task can be deconstructed into smaller tasks
-•	High levels of difficult imply significant reward for completion
-o	The return on this investment would be transformative to the entire department
+## Benefits:
 
+• Appear to be the trend of court services
+• Veteran POs who have experience case management as well as pre-trial can be good sources of info
+• Still developing policy, practices, and philosophy may make culture change easier
+• Less tasks in comparison to supervision means faster answers to CORE questions
+• Size of units allow for easy evaluation of unit attitudes and “institutional knowledge”
+
+# Cost/Benefit of Supervision
+## Cost:
+* More than 6x the discretion points of Pre-Trial means
+  * Heavy lift
+  * Many tasks mean lots of conceptualization
+  * More planning for:
+      * Interviews
+      * Data evaluation
+      * Analysis
+* Field officers are already being scrutinized
+  * RFK
+  * DCPOs
+  * JRA
+  * Number of units/divisions means significant differences in
+  * Institutional knowledge
+  * Office-culture issues
+  * Wide geographical areas
+  * Without special considerations, buy-in from staff will be low due to the number of other initatives 
+
+## Benefits:
+* This is our “brand”
+* Certain costs can be transformed into benefits:
+  * Officers being scrutinized can be mitigated/transformed by CORE’s
+    * Radical transparency
+    * Regular and open communication
+    * Acknowledgement of field difficulties
+    * Pointed solutions
+  * Significant areas of investigation mean the task can be deconstructed into smaller tasks
+* High levels of difficult imply significant reward for completion
+  * The return on this investment would be transformative to the entire department
