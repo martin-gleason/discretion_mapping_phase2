@@ -1,0 +1,33 @@
+---
+title: "CORE Discretion Mapping Project"
+subtitle: "Executive Summary"
+output:
+  html_document:
+    toc: true
+    toc_float:
+        collapsed: true
+        number_sections: true
+    toc_depth: 2
+    css: core_presentation.css
+---
+
+# Abstract
+From February 2017 to March 2018, members of the Committee on Results for Equity (C.O.R.E.) volunteered to "map" the decisions points in the Cook County Juvenile Court where an officer's discretion *could* have an impact on a young person. The reason for this project was twofold: Determine where officers make choices regarding the care of young people on probation and determine what, if any, impact officers’ discretion has on youth of color. Mapping the instances where officers have choices to make regarding the status, type, or level/dosage of involvement in the probation process is fundamental to answering those questions. The process in which the discretion mapping team used to analyze probation’s programs, policies, and practices regarding an officer’s discretion revealed a number of discretion points in the continuum of care, as well as areas for further study.
+
+# Scope
+It is important to note that the team did not determine whether or not officer discretion is positive or negative. The scope of this project was limited to mapping where discretion exists within the continuum of care, how discretion is guided, and if there is any data or evidence that may help show impact of discretion. 
+
+# Definition
+The first task the team addressed was our definition of discretion. The team quickly settled on the following: Discretion refers to the choices made by the officer when implementing a policy, practice, or referring to a program. Using this definition, the team was able to fully to examine the probation process by building a model of the continuum of care. The team took the attached Cook County Juvenile Probation Flowchart of General Operations and divided it into three sections: Pre-Trial, Trial, and Service. This model is not perfect, nor was it intended to be. The model was created to allow the team to map discretion points, collect information, and note areas for further study. This process allowed for the team to look at officer discretion from a variety of perspectives while still keeping the entire probation system in mind.
+
+# Method
+To spur discussions and generate questions, the team imagined a young person going through our model and asking questions on what they would encounter through each section or court practice. With these baseline questions, members of the team interviewed a variety of staff to discuss “text book” methods of conducting division business as well as current and best practices. 
+
+# Results
+
+All told, there were approximately 45 discretion points mapped in the continuum of care. The number of discretion points is an estimate due to the differences in counting discretion points: For example, the way in which interviews for assessments (socials, supplemental socials, case plans, sanctions, etc.) can be counted as four discretion points or as one discretion point that exists across the spectrum of programming. The findings were clear: Discretion points exist from detention screening to case termination, and every division in between.
+
+Of particular note: even “objective” measures allow for discretion. In detention screening, officers can override the range of 8-14 rely on officer’s discretion. The YASI manual requires discretion. While the officer is given guidelines on how to score each item, answers depend on officers’ judgement when scoring these items. Since even the tools officers use in providing and documenting care have discretion points, our model allowed the team to map where points exist and gave guidance on how to proceed between each division and department within the court.
+
+# Conclusion
+The team is still delving into the findings. We are cleaning up our notes and looking to have them presentable to the department early in 2018. The work does not stop there. The discretion mapping team will look into specific sections of the flowchart for more detailed mapping of particular discretion as well as collecting data on how said discretion impacts young people. 

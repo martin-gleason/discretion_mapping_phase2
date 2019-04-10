@@ -4,25 +4,25 @@
 
 
 :root{
-	--blue: #090c9b;
+	--blue: #0A2463;
   --grey: #837a75;
-  --black: #0e0705;
+  --black: #02111B;
   --green: #a5d3c1;
   --gold: #eebf48;
-  --offwhite: #FCFEFB;
-  --notwhite: #5c5c57;
+  --offwhite: #EEECE8;
   --coreRed: #da705c;
   --whitesmoke: #F5F5F5;
+  --timberwolf: #DAD7CD;
 
 }
 
 body{
-	background-color: var(--whitesmoke);
+	background-color: var(--offwhite);
 
 }
 
 .remark-container{
-	background-color: var(--notwhite);
+	background-color: var(--offwhite);
 }
 
 .title-slide content {
@@ -44,7 +44,7 @@ body{
 
 .remark-slide table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background-color:var(--whitesmoke)}
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background-color:var(--offwhite);}
 
 
 
@@ -73,9 +73,10 @@ h2{
 
 h3{
 font-family: 'Montserrat', sans-serif;
-	color: var(--blue);
+	color: var(--coreRed);
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 1.4em;
+	font-style: italic;
 		text-rendering: optimizelegibility !important;
 }
 
@@ -87,17 +88,17 @@ font-family: 'Montserrat', sans-serif;
 		text-rendering: optimizelegibility !important;
 }
 
-ul,ol,dl,p{
+ul,ol,dl,p, li{
 	color: var(--black);
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	text-align: left;
 }
 
 a{
 	color: var(--blue);
 	text-decoration: underline;
-	}
+}
 
 a:hover{
 	color: var(--gold);
@@ -131,7 +132,7 @@ a:visited{
 .image-ten{
 	height: 10%;
 	width: 10%;
-	}
+}
 
 .left{
 	text-align:left !important;
@@ -141,7 +142,7 @@ a:visited{
 	text-align:center !important;
 	}
 	
-.	right{
+.right{
 	text-align: right;
 	}
 
@@ -153,7 +154,8 @@ a:visited{
 }
 
 .v-middle{
-	vertical-align: middle;}
+	vertical-align: middle;
+}
 	
 .right-code {
   width: 38%;
@@ -177,4 +179,36 @@ a:visited{
   width: 60%;
   float: right;
   padding-left: 2%;
+}
+
+.list-group-item {
+	font-family: Montserrat;
+	text-decoration: underline;
+	position: relative
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: 1px;
+	background-color: var(--whitesmoke);
+	border: 10px;
+	color: var(--black);
+}
+
+
+.text-container-left {
+	float: left;
+	padding: 4px 2px 2px 2px;
+	margin: 10px 400px 10px 50px;
+	border: 0px;
+	border-style: solid;
+	border-color: var(--timberwolf);
+}
+
+
+.text-container-right {
+	float: right;
+	padding: 4px 2px 2px 2px;
+	margin: 10px 50px 500px 5px;
+	border: 0px;
+	border-style: solid;
+	border-color: var(--timberwolf);
 }

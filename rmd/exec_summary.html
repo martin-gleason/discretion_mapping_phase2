@@ -11,7 +11,7 @@
 
 
 
-<title>Discretion Mapping 2.0</title>
+<title>CORE Discretion Mapping Project</title>
 
 <script>/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
 !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l="1.11.3",m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0>a?b:0);return this.pushStack(c>=0&&b>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||m.isFunction(g)||(g={}),h===i&&(g=this,h--);i>h;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&&(j&&c&&(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&&m.isArray(a)?a:[]):f=a&&m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&&(g[d]=c));return g},m.extend({expando:"jQuery"+(l+Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===m.type(a)},isArray:Array.isArray||function(a){return"array"===m.type(a)},isWindow:function(a){return null!=a&&a==a.window},isNumeric:function(a){return!m.isArray(a)&&a-parseFloat(a)+1>=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||"object"!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&&!j.call(a,"constructor")&&!j.call(a.constructor.prototype,"isPrototypeOf"))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?h[i.call(a)]||"object":typeof a},globalEval:function(b){b&&m.trim(b)&&(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.replace(o,"ms-").replace(p,q)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b,c){var d,e=0,f=a.length,g=r(a);if(c){if(g){for(;f>e;e++)if(d=b.apply(a[e],c),d===!1)break}else for(e in a)if(d=b.apply(a[e],c),d===!1)break}else if(g){for(;f>e;e++)if(d=b.call(a[e],e,a[e]),d===!1)break}else for(e in a)if(d=b.call(a[e],e,a[e]),d===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(n,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(r(Object(a))?m.merge(c,"string"==typeof a?[a]:a):f.call(c,a)),c},inArray:function(a,b,c){var d;if(b){if(g)return g.call(b,a,c);for(d=b.length,c=c?0>c?Math.max(0,d+c):c:0;d>c;c++)if(c in b&&b[c]===a)return c}return-1},merge:function(a,b){var c=+b.length,d=0,e=a.length;while(c>d)a[e++]=b[d++];if(c!==c)while(void 0!==b[d])a[e++]=b[d++];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;g>f;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,f=0,g=a.length,h=r(a),i=[];if(h)for(;g>f;f++)d=b(a[f],f,c),null!=d&&i.push(d);else for(f in a)d=b(a[f],f,c),null!=d&&i.push(d);return e.apply([],i)},guid:1,proxy:function(a,b){var c,e,f;return"string"==typeof b&&(f=a[b],b=a,a=f),m.isFunction(a)?(c=d.call(arguments,2),e=function(){return a.apply(b||this,c.concat(d.call(arguments)))},e.guid=a.guid=a.guid||m.guid++,e):void 0},now:function(){return+new Date},support:k}),m.each("Boolean Number String Function Array Date RegExp Object Error".split(" "),function(a,b){h["[object "+b+"]"]=b.toLowerCase()});function r(a){var b="length"in a&&a.length,c=m.type(a);return"function"===c||m.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a}var s=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C=1<<31,D={}.hasOwnProperty,E=[],F=E.pop,G=E.push,H=E.push,I=E.slice,J=function(a,b){for(var c=0,d=a.length;d>c;c++)if(a[c]===b)return c;return-1},K="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",L="[\\x20\\t\\r\\n\\f]",M="(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",N=M.replace("w","w#"),O="\\["+L+"*("+M+")(?:"+L+"*([*^$|!~]?=)"+L+"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|("+N+"))|)"+L+"*\\]",P=":("+M+")(?:\\((('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|((?:\\\\.|[^\\\\()[\\]]|"+O+")*)|.*)\\)|)",Q=new RegExp(L+"+","g"),R=new RegExp("^"+L+"+|((?:^|[^\\\\])(?:\\\\.)*)"+L+"+$","g"),S=new RegExp("^"+L+"*,"+L+"*"),T=new RegExp("^"+L+"*([>+~]|"+L+")"+L+"*"),U=new RegExp("="+L+"*([^\\]'\"]*?)"+L+"*\\]","g"),V=new RegExp(P),W=new RegExp("^"+N+"$"),X={ID:new RegExp("^#("+M+")"),CLASS:new RegExp("^\\.("+M+")"),TAG:new RegExp("^("+M.replace("w","w*")+")"),ATTR:new RegExp("^"+O),PSEUDO:new RegExp("^"+P),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\("+L+"*(even|odd|(([+-]|)(\\d*)n|)"+L+"*(?:([+-]|)"+L+"*(\\d+)|))"+L+"*\\)|)","i"),bool:new RegExp("^(?:"+K+")$","i"),needsContext:new RegExp("^"+L+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+L+"*((?:-\\d)?\\d*)"+L+"*\\)|)(?=[^-]|$)","i")},Y=/^(?:input|select|textarea|button)$/i,Z=/^h\d$/i,$=/^[^{]+\{\s*\[native \w/,_=/^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,aa=/[+~]/,ba=/'|\\/g,ca=new RegExp("\\\\([\\da-f]{1,6}"+L+"?|("+L+")|.)","ig"),da=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:0>d?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ea=function(){m()};try{H.apply(E=I.call(v.childNodes),v.childNodes),E[v.childNodes.length].nodeType}catch(fa){H={apply:E.length?function(a,b){G.apply(a,I.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s,w,x;if((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,d=d||[],k=b.nodeType,"string"!=typeof a||!a||1!==k&&9!==k&&11!==k)return d;if(!e&&p){if(11!==k&&(f=_.exec(a)))if(j=f[1]){if(9===k){if(h=b.getElementById(j),!h||!h.parentNode)return d;if(h.id===j)return d.push(h),d}else if(b.ownerDocument&&(h=b.ownerDocument.getElementById(j))&&t(b,h)&&h.id===j)return d.push(h),d}else{if(f[2])return H.apply(d,b.getElementsByTagName(a)),d;if((j=f[3])&&c.getElementsByClassName)return H.apply(d,b.getElementsByClassName(j)),d}if(c.qsa&&(!q||!q.test(a))){if(s=r=u,w=b,x=1!==k&&a,1===k&&"object"!==b.nodeName.toLowerCase()){o=g(a),(r=b.getAttribute("id"))?s=r.replace(ba,"\\$&"):b.setAttribute("id",s),s="[id='"+s+"'] ",l=o.length;while(l--)o[l]=s+ra(o[l]);w=aa.test(a)&&pa(b.parentNode)||b,x=o.join(",")}if(x)try{return H.apply(d,w.querySelectorAll(x)),d}catch(y){}finally{r||b.removeAttribute("id")}}}return i(a.replace(R,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=a.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&(~b.sourceIndex||C)-(~a.sourceIndex||C);if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function pa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return b?"HTML"!==b.nodeName:!1},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=g.documentElement,e=g.defaultView,e&&e!==e.top&&(e.addEventListener?e.addEventListener("unload",ea,!1):e.attachEvent&&e.attachEvent("onunload",ea)),p=!f(g),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(g.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=$.test(g.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!g.getElementsByName||!g.getElementsByName(u).length}),c.getById?(d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c&&c.parentNode?[c]:[]}},d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){return a.getAttribute("id")===b}}):(delete d.find.ID,d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){return p?b.getElementsByClassName(a):void 0},r=[],q=[],(c.qsa=$.test(g.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'></a><select id='"+u+"-\f]' msallowcapture=''><option selected=''></option></select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+L+"*(?:''|\"\")"),a.querySelectorAll("[selected]").length||q.push("\\["+L+"*(?:value|"+K+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){var b=g.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+L+"*[*^$|!~]?="),a.querySelectorAll(":enabled").length||q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=$.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"div"),s.call(a,"[s!='']:x"),r.push("!=",P)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=$.test(o.compareDocumentPosition),t=b||$.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===g||a.ownerDocument===v&&t(v,a)?-1:b===g||b.ownerDocument===v&&t(v,b)?1:k?J(k,a)-J(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,h=[a],i=[b];if(!e||!f)return a===g?-1:b===g?1:e?-1:f?1:k?J(k,a)-J(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)h.unshift(c);c=b;while(c=c.parentNode)i.unshift(c);while(h[d]===i[d])d++;return d?la(h[d],i[d]):h[d]===v?-1:i[d]===v?1:0},g):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(U,"='$1']"),!(!c.matchesSelector||!p||r&&r.test(b)||q&&q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&D.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:X,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(ca,da),a[3]=(a[3]||a[4]||a[5]||"").replace(ca,da),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return X.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&V.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(ca,da).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+L+")"+a+"("+L+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:b?(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(Q," ")+" ").indexOf(c)>-1:"|="===b?e===c||e.slice(0,c.length+1)===c+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h;if(q){if(f){while(p){l=b;while(l=l[p])if(h?l.nodeName.toLowerCase()===r:1===l.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){k=q[u]||(q[u]={}),j=k[a]||[],n=j[0]===w&&j[1],m=j[0]===w&&j[2],l=n&&q.childNodes[n];while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if(1===l.nodeType&&++m&&l===b){k[a]=[w,n,m];break}}else if(s&&(j=(b[u]||(b[u]={}))[a])&&j[0]===w)m=j[1];else while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if((h?l.nodeName.toLowerCase()===r:1===l.nodeType)&&++m&&(s&&((l[u]||(l[u]={}))[a]=[w,m]),l===b))break;return m-=e,m===d||m%d===0&&m/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=J(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(R,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(ca,da),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return W.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(ca,da).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:function(a){return a.disabled===!1},disabled:function(a){return a.disabled===!0},checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return Z.test(a.nodeName)},input:function(a){return Y.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:oa(function(){return[0]}),last:oa(function(a,b){return[b-1]}),eq:oa(function(a,b,c){return[0>c?c+b:c]}),even:oa(function(a,b){for(var c=0;b>c;c+=2)a.push(c);return a}),odd:oa(function(a,b){for(var c=1;b>c;c+=2)a.push(c);return a}),lt:oa(function(a,b,c){for(var d=0>c?c+b:c;--d>=0;)a.push(d);return a}),gt:oa(function(a,b,c){for(var d=0>c?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function qa(){}qa.prototype=d.filters=d.pseudos,d.setFilters=new qa,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){(!c||(e=S.exec(h)))&&(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=T.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(R," ")}),h=h.slice(c.length));for(g in d.filter)!(e=X[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function ra(a){for(var b=0,c=a.length,d="";c>b;b++)d+=a[b].value;return d}function sa(a,b,c){var d=b.dir,e=c&&"parentNode"===d,f=x++;return b.first?function(b,c,f){while(b=b[d])if(1===b.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j=[w,f];if(g){while(b=b[d])if((1===b.nodeType||e)&&a(b,c,g))return!0}else while(b=b[d])if(1===b.nodeType||e){if(i=b[u]||(b[u]={}),(h=i[d])&&h[0]===w&&h[1]===f)return j[2]=h[2];if(i[d]=j,j[2]=a(b,c,g))return!0}}}function ta(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function ua(a,b,c){for(var d=0,e=b.length;e>d;d++)ga(a,b[d],c);return c}function va(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;i>h;h++)(f=a[h])&&(!c||c(f,d,e))&&(g.push(f),j&&b.push(h));return g}function wa(a,b,c,d,e,f){return d&&!d[u]&&(d=wa(d)),e&&!e[u]&&(e=wa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||ua(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:va(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=va(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?J(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=va(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):H.apply(g,r)})}function xa(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=sa(function(a){return a===b},h,!0),l=sa(function(a){return J(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];f>i;i++)if(c=d.relative[a[i].type])m=[sa(ta(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;f>e;e++)if(d.relative[a[e].type])break;return wa(i>1&&ta(m),i>1&&ra(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(R,"$1"),c,e>i&&xa(a.slice(i,e)),f>e&&xa(a=a.slice(e)),f>e&&ra(a))}m.push(c)}return ta(m)}function ya(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,m,o,p=0,q="0",r=f&&[],s=[],t=j,u=f||e&&d.find.TAG("*",k),v=w+=null==t?1:Math.random()||.1,x=u.length;for(k&&(j=g!==n&&g);q!==x&&null!=(l=u[q]);q++){if(e&&l){m=0;while(o=a[m++])if(o(l,g,h)){i.push(l);break}k&&(w=v)}c&&((l=!o&&l)&&p--,f&&r.push(l))}if(p+=q,c&&q!==p){m=0;while(o=b[m++])o(r,s,g,h);if(f){if(p>0)while(q--)r[q]||s[q]||(s[q]=F.call(i));s=va(s)}H.apply(i,s),k&&!f&&s.length>0&&p+b.length>1&&ga.uniqueSort(i)}return k&&(w=v,j=t),r};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=xa(b[c]),f[u]?d.push(f):e.push(f);f=A(a,ya(e,d)),f.selector=a}return f},i=ga.select=function(a,b,e,f){var i,j,k,l,m,n="function"==typeof a&&a,o=!f&&g(a=n.selector||a);if(e=e||[],1===o.length){if(j=o[0]=o[0].slice(0),j.length>2&&"ID"===(k=j[0]).type&&c.getById&&9===b.nodeType&&p&&d.relative[j[1].type]){if(b=(d.find.ID(k.matches[0].replace(ca,da),b)||[])[0],!b)return e;n&&(b=b.parentNode),a=a.slice(j.shift().value.length)}i=X.needsContext.test(a)?0:j.length;while(i--){if(k=j[i],d.relative[l=k.type])break;if((m=d.find[l])&&(f=m(k.matches[0].replace(ca,da),aa.test(j[0].type)&&pa(b.parentNode)||b))){if(j.splice(i,1),a=f.length&&ra(j),!a)return H.apply(e,f),e;break}}}return(n||h(a,o))(f,b,!p,e,aa.test(a)&&pa(b.parentNode)||b),e},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("div"))}),ja(function(a){return a.innerHTML="<a href='#'></a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){return c?void 0:a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){return c||"input"!==a.nodeName.toLowerCase()?void 0:a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(K,function(a,b,c){var d;return c?void 0:a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);m.find=s,m.expr=s.selectors,m.expr[":"]=m.expr.pseudos,m.unique=s.uniqueSort,m.text=s.getText,m.isXMLDoc=s.isXML,m.contains=s.contains;var t=m.expr.match.needsContext,u=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,v=/^.[^:#\[\.,]*$/;function w(a,b,c){if(m.isFunction(b))return m.grep(a,function(a,d){return!!b.call(a,d,a)!==c});if(b.nodeType)return m.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(v.test(b))return m.filter(b,a,c);b=m.filter(b,a)}return m.grep(a,function(a){return m.inArray(a,b)>=0!==c})}m.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?m.find.matchesSelector(d,a)?[d]:[]:m.find.matches(a,m.grep(b,function(a){return 1===a.nodeType}))},m.fn.extend({find:function(a){var b,c=[],d=this,e=d.length;if("string"!=typeof a)return this.pushStack(m(a).filter(function(){for(b=0;e>b;b++)if(m.contains(d[b],this))return!0}));for(b=0;e>b;b++)m.find(a,d[b],c);return c=this.pushStack(e>1?m.unique(c):c),c.selector=this.selector?this.selector+" "+a:a,c},filter:function(a){return this.pushStack(w(this,a||[],!1))},not:function(a){return this.pushStack(w(this,a||[],!0))},is:function(a){return!!w(this,"string"==typeof a&&t.test(a)?m(a):a||[],!1).length}});var x,y=a.document,z=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,A=m.fn.init=function(a,b){var c,d;if(!a)return this;if("string"==typeof a){if(c="<"===a.charAt(0)&&">"===a.charAt(a.length-1)&&a.length>=3?[null,a,null]:z.exec(a),!c||!c[1]&&b)return!b||b.jquery?(b||x).find(a):this.constructor(b).find(a);if(c[1]){if(b=b instanceof m?b[0]:b,m.merge(this,m.parseHTML(c[1],b&&b.nodeType?b.ownerDocument||b:y,!0)),u.test(c[1])&&m.isPlainObject(b))for(c in b)m.isFunction(this[c])?this[c](b[c]):this.attr(c,b[c]);return this}if(d=y.getElementById(c[2]),d&&d.parentNode){if(d.id!==c[2])return x.find(a);this.length=1,this[0]=d}return this.context=y,this.selector=a,this}return a.nodeType?(this.context=this[0]=a,this.length=1,this):m.isFunction(a)?"undefined"!=typeof x.ready?x.ready(a):a(m):(void 0!==a.selector&&(this.selector=a.selector,this.context=a.context),m.makeArray(a,this))};A.prototype=m.fn,x=m(y);var B=/^(?:parents|prev(?:Until|All))/,C={children:!0,contents:!0,next:!0,prev:!0};m.extend({dir:function(a,b,c){var d=[],e=a[b];while(e&&9!==e.nodeType&&(void 0===c||1!==e.nodeType||!m(e).is(c)))1===e.nodeType&&d.push(e),e=e[b];return d},sibling:function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c}}),m.fn.extend({has:function(a){var b,c=m(a,this),d=c.length;return this.filter(function(){for(b=0;d>b;b++)if(m.contains(this,c[b]))return!0})},closest:function(a,b){for(var c,d=0,e=this.length,f=[],g=t.test(a)||"string"!=typeof a?m(a,b||this.context):0;e>d;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&m.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?m.unique(f):f)},index:function(a){return a?"string"==typeof a?m.inArray(this[0],m(a)):m.inArray(a.jquery?a[0]:a,this):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(m.unique(m.merge(this.get(),m(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function D(a,b){do a=a[b];while(a&&1!==a.nodeType);return a}m.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return m.dir(a,"parentNode")},parentsUntil:function(a,b,c){return m.dir(a,"parentNode",c)},next:function(a){return D(a,"nextSibling")},prev:function(a){return D(a,"previousSibling")},nextAll:function(a){return m.dir(a,"nextSibling")},prevAll:function(a){return m.dir(a,"previousSibling")},nextUntil:function(a,b,c){return m.dir(a,"nextSibling",c)},prevUntil:function(a,b,c){return m.dir(a,"previousSibling",c)},siblings:function(a){return m.sibling((a.parentNode||{}).firstChild,a)},children:function(a){return m.sibling(a.firstChild)},contents:function(a){return m.nodeName(a,"iframe")?a.contentDocument||a.contentWindow.document:m.merge([],a.childNodes)}},function(a,b){m.fn[a]=function(c,d){var e=m.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=m.filter(d,e)),this.length>1&&(C[a]||(e=m.unique(e)),B.test(a)&&(e=e.reverse())),this.pushStack(e)}});var E=/\S+/g,F={};function G(a){var b=F[a]={};return m.each(a.match(E)||[],function(a,c){b[c]=!0}),b}m.Callbacks=function(a){a="string"==typeof a?F[a]||G(a):m.extend({},a);var b,c,d,e,f,g,h=[],i=!a.once&&[],j=function(l){for(c=a.memory&&l,d=!0,f=g||0,g=0,e=h.length,b=!0;h&&e>f;f++)if(h[f].apply(l[0],l[1])===!1&&a.stopOnFalse){c=!1;break}b=!1,h&&(i?i.length&&j(i.shift()):c?h=[]:k.disable())},k={add:function(){if(h){var d=h.length;!function f(b){m.each(b,function(b,c){var d=m.type(c);"function"===d?a.unique&&k.has(c)||h.push(c):c&&c.length&&"string"!==d&&f(c)})}(arguments),b?e=h.length:c&&(g=d,j(c))}return this},remove:function(){return h&&m.each(arguments,function(a,c){var d;while((d=m.inArray(c,h,d))>-1)h.splice(d,1),b&&(e>=d&&e--,f>=d&&f--)}),this},has:function(a){return a?m.inArray(a,h)>-1:!(!h||!h.length)},empty:function(){return h=[],e=0,this},disable:function(){return h=i=c=void 0,this},disabled:function(){return!h},lock:function(){return i=void 0,c||k.disable(),this},locked:function(){return!i},fireWith:function(a,c){return!h||d&&!i||(c=c||[],c=[a,c.slice?c.slice():c],b?i.push(c):j(c)),this},fire:function(){return k.fireWith(this,arguments),this},fired:function(){return!!d}};return k},m.extend({Deferred:function(a){var b=[["resolve","done",m.Callbacks("once memory"),"resolved"],["reject","fail",m.Callbacks("once memory"),"rejected"],["notify","progress",m.Callbacks("memory")]],c="pending",d={state:function(){return c},always:function(){return e.done(arguments).fail(arguments),this},then:function(){var a=arguments;return m.Deferred(function(c){m.each(b,function(b,f){var g=m.isFunction(a[b])&&a[b];e[f[1]](function(){var a=g&&g.apply(this,arguments);a&&m.isFunction(a.promise)?a.promise().done(c.resolve).fail(c.reject).progress(c.notify):c[f[0]+"With"](this===d?c.promise():this,g?[a]:arguments)})}),a=null}).promise()},promise:function(a){return null!=a?m.extend(a,d):d}},e={};return d.pipe=d.then,m.each(b,function(a,f){var g=f[2],h=f[3];d[f[1]]=g.add,h&&g.add(function(){c=h},b[1^a][2].disable,b[2][2].lock),e[f[0]]=function(){return e[f[0]+"With"](this===e?d:this,arguments),this},e[f[0]+"With"]=g.fireWith}),d.promise(e),a&&a.call(e,e),e},when:function(a){var b=0,c=d.call(arguments),e=c.length,f=1!==e||a&&m.isFunction(a.promise)?e:0,g=1===f?a:m.Deferred(),h=function(a,b,c){return function(e){b[a]=this,c[a]=arguments.length>1?d.call(arguments):e,c===i?g.notifyWith(b,c):--f||g.resolveWith(b,c)}},i,j,k;if(e>1)for(i=new Array(e),j=new Array(e),k=new Array(e);e>b;b++)c[b]&&m.isFunction(c[b].promise)?c[b].promise().done(h(b,k,c)).fail(g.reject).progress(h(b,j,i)):--f;return f||g.resolveWith(k,c),g.promise()}});var H;m.fn.ready=function(a){return m.ready.promise().done(a),this},m.extend({isReady:!1,readyWait:1,holdReady:function(a){a?m.readyWait++:m.ready(!0)},ready:function(a){if(a===!0?!--m.readyWait:!m.isReady){if(!y.body)return setTimeout(m.ready);m.isReady=!0,a!==!0&&--m.readyWait>0||(H.resolveWith(y,[m]),m.fn.triggerHandler&&(m(y).triggerHandler("ready"),m(y).off("ready")))}}});function I(){y.addEventListener?(y.removeEventListener("DOMContentLoaded",J,!1),a.removeEventListener("load",J,!1)):(y.detachEvent("onreadystatechange",J),a.detachEvent("onload",J))}function J(){(y.addEventListener||"load"===event.type||"complete"===y.readyState)&&(I(),m.ready())}m.ready.promise=function(b){if(!H)if(H=m.Deferred(),"complete"===y.readyState)setTimeout(m.ready);else if(y.addEventListener)y.addEventListener("DOMContentLoaded",J,!1),a.addEventListener("load",J,!1);else{y.attachEvent("onreadystatechange",J),a.attachEvent("onload",J);var c=!1;try{c=null==a.frameElement&&y.documentElement}catch(d){}c&&c.doScroll&&!function e(){if(!m.isReady){try{c.doScroll("left")}catch(a){return setTimeout(e,50)}I(),m.ready()}}()}return H.promise(b)};var K="undefined",L;for(L in m(k))break;k.ownLast="0"!==L,k.inlineBlockNeedsLayout=!1,m(function(){var a,b,c,d;c=y.getElementsByTagName("body")[0],c&&c.style&&(b=y.createElement("div"),d=y.createElement("div"),d.style.cssText="position:absolute;border:0;width:0;height:0;top:0;left:-9999px",c.appendChild(d).appendChild(b),typeof b.style.zoom!==K&&(b.style.cssText="display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1",k.inlineBlockNeedsLayout=a=3===b.offsetWidth,a&&(c.style.zoom=1)),c.removeChild(d))}),function(){var a=y.createElement("div");if(null==k.deleteExpando){k.deleteExpando=!0;try{delete a.test}catch(b){k.deleteExpando=!1}}a=null}(),m.acceptData=function(a){var b=m.noData[(a.nodeName+" ").toLowerCase()],c=+a.nodeType||1;return 1!==c&&9!==c?!1:!b||b!==!0&&a.getAttribute("classid")===b};var M=/^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,N=/([A-Z])/g;function O(a,b,c){if(void 0===c&&1===a.nodeType){var d="data-"+b.replace(N,"-$1").toLowerCase();if(c=a.getAttribute(d),"string"==typeof c){try{c="true"===c?!0:"false"===c?!1:"null"===c?null:+c+""===c?+c:M.test(c)?m.parseJSON(c):c}catch(e){}m.data(a,b,c)}else c=void 0}return c}function P(a){var b;for(b in a)if(("data"!==b||!m.isEmptyObject(a[b]))&&"toJSON"!==b)return!1;
@@ -1401,9 +1401,10 @@ text-rendering: optimizelegibility !important;
 }
 h3{
 font-family: 'Montserrat', sans-serif;
-color: var(--blue);
+color: var(--coreRed);
 text-align: left;
-font-size: 1.5em;
+font-size: 1.4em;
+font-style: italic;
 text-rendering: optimizelegibility !important;
 }
 h4{
@@ -1413,10 +1414,10 @@ text-align: left;
 font-size: .55em;
 text-rendering: optimizelegibility !important;
 }
-ul,ol,dl,p{
+ul,ol,dl,p, li{
 color: var(--black);
 font-family: 'Raleway', sans-serif;
-font-size: 1.5rem;
+font-size: 1rem;
 text-align: left;
 }
 a{
@@ -1499,7 +1500,22 @@ background-color: var(--whitesmoke);
 border: 10px;
 color: var(--black);
 }
-</style>
+.text-container-left {
+float: left;
+padding: 4px 2px 2px 2px;
+margin: 10px 400px 10px 50px;
+border: 0px;
+border-style: solid;
+border-color: var(--timberwolf);
+}
+.text-container-right {
+float: right;
+padding: 4px 2px 2px 2px;
+margin: 10px 50px 500px 5px;
+border: 0px;
+border-style: solid;
+border-color: var(--timberwolf);
+}</style>
 
 
 
@@ -1716,354 +1732,36 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Discretion Mapping 2.0</h1>
-<h3 class="subtitle">Overivew and Cost Benefit Analysis of Pre-Trial and Case Management</h3>
+<h1 class="title toc-ignore">CORE Discretion Mapping Project</h1>
+<h3 class="subtitle">Executive Summary</h3>
 
 </div>
 
 
-<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAADYCAYAAABFuRcGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAG66AABuugHW3rEXAAADSGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS40LjAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgICAgICAgICB4bWxuczpleGlmPSJodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyI+CiAgICAgICAgIDx4bXA6TW9kaWZ5RGF0ZT4yMDE5LTA0LTAzVDA5OjA0OjMyPC94bXA6TW9kaWZ5RGF0ZT4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5QaXhlbG1hdG9yIDMuOC4yPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgICAgIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50YXRpb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjA8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj42NDA8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpDb2xvclNwYWNlPjE8L2V4aWY6Q29sb3JTcGFjZT4KICAgICAgICAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjkyMDwvZXhpZjpQaXhlbFlE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" /></p>
-<div id="summary" class="section level1">
-<h1>Summary</h1>
-<p>The next phase of the discretion mapping project will be a deep dive into either pre-trial or case management, two of the categories that were established in the <a href="https://martin-gleason.github.io/discretion-mapping/discretion_presentation.html#1">first phase of the discretion mapping project.</a> There is a third category, the trial phase, but that has been excluded due to limited ability for officers to have significant control or affect change during trials and hearings.</p>
-<p>Both categories can have a significant impact on the court. To that end, the discretion points for each category are listed below. Additionally, a cost-benefit analysis (CBA) has been conducted to help guide the discussion on the selection process. Neither the discretion points nor the CBA are meant to be complete. They are comprehensive and guide posts to additional discretion points, but the items are not weighted. The discussion stemming from these items will be the final deciding factor regarding next steps.</p>
-<div id="recommendations" class="section level2">
-<h2>Recommendations</h2>
-<p>It is the recommendation of this officer that the second phase of the discretion mapping project focus on case management for the next 12-18 months, staffed by a total of 8 court staff. Half of the staff should come directly from C.O.R.E.</p>
+<div id="abstract" class="section level1">
+<h1>Abstract</h1>
+<p>From February 2017 to March 2018, members of the Committee on Results for Equity (C.O.R.E.) volunteered to “map” the decisions points in the Cook County Juvenile Court where an officer’s discretion <em>could</em> have an impact on a young person. The reason for this project was twofold: Determine where officers make choices regarding the care of young people on probation and determine what, if any, impact officers’ discretion has on youth of color. Mapping the instances where officers have choices to make regarding the status, type, or level/dosage of involvement in the probation process is fundamental to answering those questions. The process in which the discretion mapping team used to analyze probation’s programs, policies, and practices regarding an officer’s discretion revealed a number of discretion points in the continuum of care, as well as areas for further study.</p>
 </div>
+<div id="scope" class="section level1">
+<h1>Scope</h1>
+<p>It is important to note that the team did not determine whether or not officer discretion is positive or negative. The scope of this project was limited to mapping where discretion exists within the continuum of care, how discretion is guided, and if there is any data or evidence that may help show impact of discretion.</p>
 </div>
-<div id="meta-factors" class="section level1">
-<h1>Meta Factors</h1>
-<p>It should be noted that regardless of the focus area, this project will have to examine specific process questions; specifically, questions on how POs build rapport, interview families, conduct visits, summarize interactions, and present information to the court. It would be possible to do an entire project around these “meta” factors; however, lasting change maybe easier when these factors are examined within the context of their use.</p>
+<div id="definition" class="section level1">
+<h1>Definition</h1>
+<p>The first task the team addressed was our definition of discretion. The team quickly settled on the following: Discretion refers to the choices made by the officer when implementing a policy, practice, or referring to a program. Using this definition, the team was able to fully to examine the probation process by building a model of the continuum of care. The team took the attached Cook County Juvenile Probation Flowchart of General Operations and divided it into three sections: Pre-Trial, Trial, and Service. This model is not perfect, nor was it intended to be. The model was created to allow the team to map discretion points, collect information, and note areas for further study. This process allowed for the team to look at officer discretion from a variety of perspectives while still keeping the entire probation system in mind.</p>
 </div>
-<div id="pre-trial-discretion-points-total" class="section level1">
-<h1>Pre-Trial: Discretion Points Total</h1>
-<p><em>Total Points: 10</em></p>
-<ol style="list-style-type: decimal">
-<li>Detention Screening
-<ol style="list-style-type: lower-alpha">
-<li>Discretion for scores between 9-14
-<ol style="list-style-type: lower-roman">
-<li>This item should be in JEMS
-<ol style="list-style-type: upper-alpha">
-<li>Does it exist?</li>
-<li>Has it been analyzed?</li>
-</ol></li>
-</ol></li>
-</ol></li>
-</ol>
-<p><strong>Total Discretion Points: 2</strong></p>
-<ol start="2" style="list-style-type: decimal">
-<li>Diversion Programming
-<ol style="list-style-type: lower-alpha">
-<li>Diversion officers have discretion about what programs are ordered
-<ol style="list-style-type: lower-roman">
-<li>How we add new programs is not answered clearly</li>
-<li>Data is available based on individual officer’s use of JEMS</li>
-</ol></li>
-<li>ASA’s are not putting in all the information they have regarding discretion
-<ol style="list-style-type: lower-roman">
-<li>That agency has a majority of the discretion in deciding who is eligible for diversion</li>
-</ol></li>
-</ol></li>
-</ol>
-<p><strong>Total Discretion Points: 2</strong></p>
-<ol start="3" style="list-style-type: decimal">
-<li>Electronic Monitoring
-<ol style="list-style-type: lower-alpha">
-<li>Judge has discretion for the order</li>
-<li>PO Has
-<ol style="list-style-type: lower-roman">
-<li>Granting movement</li>
-<li>The definition of success</li>
-</ol></li>
-</ol></li>
-</ol>
-<p><strong>Total Discretion Points: 2</strong></p>
-<ol start="4" style="list-style-type: decimal">
-<li>Pre-trial Services/Expeditor
-<ol style="list-style-type: lower-alpha">
-<li>Overnight holds</li>
-<li>Long term detention</li>
-<li>How much to help with DAD</li>
-<li>Narrative Elements
-<ol style="list-style-type: lower-roman">
-<li>Case notes</li>
-<li>Evidence used/cited for detention
-<ol style="list-style-type: upper-alpha">
-<li>“Expeditor discretion, moving forward, is not just about stepping a kid out of detention”</li>
-</ol></li>
-</ol></li>
-</ol></li>
-</ol>
-<p><strong>Total Discretion Points: 4</strong></p>
-<div id="measurable-discretion-points-for-pre-trial-10" class="section level3">
-<h3>Measurable discretion points for Pre-trial: 10</h3>
+<div id="method" class="section level1">
+<h1>Method</h1>
+<p>To spur discussions and generate questions, the team imagined a young person going through our model and asking questions on what they would encounter through each section or court practice. With these baseline questions, members of the team interviewed a variety of staff to discuss “text book” methods of conducting division business as well as current and best practices.</p>
 </div>
+<div id="results" class="section level1">
+<h1>Results</h1>
+<p>All told, there were approximately 45 discretion points mapped in the continuum of care. The number of discretion points is an estimate due to the differences in counting discretion points: For example, the way in which interviews for assessments (socials, supplemental socials, case plans, sanctions, etc.) can be counted as four discretion points or as one discretion point that exists across the spectrum of programming. The findings were clear: Discretion points exist from detention screening to case termination, and every division in between.</p>
+<p>Of particular note: even “objective” measures allow for discretion. In detention screening, officers can override the range of 8-14 rely on officer’s discretion. The YASI manual requires discretion. While the officer is given guidelines on how to score each item, answers depend on officers’ judgement when scoring these items. Since even the tools officers use in providing and documenting care have discretion points, our model allowed the team to map where points exist and gave guidance on how to proceed between each division and department within the court.</p>
 </div>
-<div id="supervision-discretion-points-total" class="section level1">
-<h1>Supervision: Discretion Points Total</h1>
-<p><strong>Total: ~62</strong></p>
-<div id="estimates" class="section level2">
-<h2>Estimates:</h2>
-<p><em>There is still debate on whether discretion points count as one for major categories or all sub-points. To this end, each total and subtotal should be considered to be an estimate.</em></p>
-<ol style="list-style-type: decimal">
-<li>OYAS
-<ol style="list-style-type: lower-alpha">
-<li>Needs to be evaluated like YASI.</li>
-<li>Includes
-<ol style="list-style-type: lower-roman">
-<li>Interviewing skills</li>
-<li>Synthesis of information</li>
-<li>Presentation of information</li>
-<li>Discretion per category</li>
-</ol></li>
-<li>YASI was found to have a number of discretion points even though it is an <a href="tool">actuarial tool</a></li>
-</ol></li>
-</ol>
-<p><em>Subtotal discretion points: ~ 7</em></p>
-<ol start="2" style="list-style-type: decimal">
-<li>Social Investigation
-<ol style="list-style-type: lower-alpha">
-<li>Old (YASI) vs New (JRA)format
-<ol style="list-style-type: lower-roman">
-<li>The new format has not been assessed. These points stem from the analysis of the previous soial template.</li>
-</ol></li>
-<li>Assignment to officer by SPO</li>
-<li>Records:
-<ol style="list-style-type: lower-roman">
-<li>Which records</li>
-<li>When are they reviewed</li>
-<li>How are they synthesized into the case</li>
-</ol></li>
-<li>Interviews
-<ol style="list-style-type: lower-roman">
-<li>Rapport building</li>
-<li>Context of interview</li>
-<li>Style of interview</li>
-</ol></li>
-<li>Writing
-<ol style="list-style-type: lower-roman">
-<li>What is in the document</li>
-<li>How is it presented in the document</li>
-</ol></li>
-<li>Family Section
-<ol style="list-style-type: lower-roman">
-<li>Family composition</li>
-<li>make-up</li>
-<li>impact on minor</li>
-</ol></li>
-<li>Skills
-<ol style="list-style-type: lower-roman">
-<li>Consequential thinking skills,</li>
-<li>Behaviors</li>
-<li>Attitudes</li>
-<li>Feelings</li>
-</ol></li>
-<li>Alcohol &amp; Drugs
-<ol style="list-style-type: lower-roman">
-<li>Minor’s use of substances</li>
-<li>Attitudes towards subtnaces</li>
-</ol></li>
-<li>Physical &amp; Mental Health
-<ol style="list-style-type: lower-roman">
-<li>No discretion points, but serious concerns regarding the purpose and framing of these questions</li>
-</ol></li>
-<li>Attitudes
-<ol style="list-style-type: lower-roman">
-<li>Personal beliefs and attitudes</li>
-</ol></li>
-<li>Community &amp; Peers
-<ol style="list-style-type: lower-roman">
-<li>Relationshiop to friends</li>
-<li>Relationship to their community</li>
-</ol></li>
-<li>SPO Review
-<ol style="list-style-type: lower-roman">
-<li>Is the social reviewed?</li>
-<li>How is feedback given to officer</li>
-</ol></li>
-<li>Presentation
-<ol style="list-style-type: lower-roman">
-<li>What is summarized</li>
-<li>What is emphasized</li>
-<li>Summary
-<ol style="list-style-type: upper-alpha">
-<li>PO can decide what to summarize</li>
-<li>How to frame the case</li>
-</ol></li>
-</ol></li>
-<li>Recommendations
-<ol style="list-style-type: lower-roman">
-<li>Based on the social</li>
-<li>YASI/JRA</li>
-<li>Discretion of A. State’s Attorney B. Public Defender/Private Attorney</li>
-</ol></li>
-</ol></li>
-</ol>
-<div id="subtotal-of-disceretion-points-32" class="section level3">
-<h3>Subtotal of Disceretion Points: 32</h3>
-<ol start="3" style="list-style-type: decimal">
-<li>Probation Order
-<ol style="list-style-type: lower-alpha">
-<li>Which sections are prioritized?</li>
-</ol></li>
-</ol>
-</div>
-<div id="subtotal-of-discretion-points-1" class="section level3">
-<h3>Subtotal of Discretion Points: 1</h3>
-<ol start="4" style="list-style-type: decimal">
-<li>Case Management
-<ol style="list-style-type: lower-alpha">
-<li>Case Planning
-<ol style="list-style-type: lower-roman">
-<li>Who is involved, building rapport and buy in</li>
-<li>How is progress reported to the court</li>
-<li>Total Discretion points: 2</li>
-</ol></li>
-<li>Visits
-<ol style="list-style-type: lower-roman">
-<li>When visits occur</li>
-<li>Who is visited</li>
-<li>How are visits structured</li>
-</ol></li>
-<li>Case Plan/Execution
-<ol style="list-style-type: lower-roman">
-<li>What activities is a young person referred to
-<ol style="list-style-type: upper-alpha">
-<li>Intervention, programming, etc</li>
-<li>Whose needs are being addressed?
-<ol style="list-style-type: decimal">
-<li><em>Youth</em></li>
-<li><em>Parent</em></li>
-<li><em>PO</em></li>
-<li><em>SPO</em></li>
-<li><em>Department</em></li>
-<li><em>School’s priority</em></li>
-</ol></li>
-</ol></li>
-</ol></li>
-<li>Programming
-<ol style="list-style-type: lower-roman">
-<li>Documenting quality/Notes</li>
-<li>Community Service</li>
-</ol>
-<ol style="list-style-type: upper-alpha">
-<li>Hours</li>
-<li>Who is it for?</li>
-</ol>
-<ol start="3" style="list-style-type: lower-roman">
-<li>Services A. Type of services
-<ol style="list-style-type: decimal">
-<li>Which agency receives the referral?</li>
-<li>Prioritization of service follow-through</li>
-<li>Professional judgement regarding necessity of</li>
-<li>GSST a. What are their methods? b. What are their outcomes?</li>
-</ol></li>
-</ol></li>
-<li>Sanctions/Incentives
-<ol style="list-style-type: lower-roman">
-<li>How are violations of court ordered handled
-<ol style="list-style-type: upper-alpha">
-<li>Formal</li>
-<li>Informal</li>
-<li>Sanctions program</li>
-</ol></li>
-<li>How is progress incentivized
-<ol style="list-style-type: upper-alpha">
-<li>Is it incentivized?</li>
-</ol></li>
-<li>How is it discussed with the rest of the court?</li>
-<li>When is the case escalated to IPS?</li>
-</ol></li>
-<li>IPS
-<ol style="list-style-type: lower-roman">
-<li>Who receives IPS?</li>
-<li>How do they judge successes and failures</li>
-</ol></li>
-</ol></li>
-</ol>
-</div>
-<div id="subtotal-of-discretion-points" class="section level3">
-<h3>Subtotal of Discretion Points: ??</h3>
-</div>
-</div>
-</div>
-<div id="costbenefit-of-pre-trial" class="section level1">
-<h1>Cost/Benefit of Pre-Trial</h1>
-<div id="costs" class="section level2">
-<h2>Costs:</h2>
-<ul>
-<li>Bulk of field work is in Case Management</li>
-<li>Changes in “pre-trial” work make comparing practice and policy difficult</li>
-<li>Pre-trial is not as historically important as case work</li>
-<li>Difficult to conceptualize due to Judges’ role
-<ul>
-<li>Judges like ordering pre-trial services even if there are no officers to provide those services</li>
-</ul></li>
-</ul>
-</div>
-<div id="benefits" class="section level2">
-<h2>Benefits:</h2>
-<ul>
-<li>Appear to be the trend of court services</li>
-<li>Veteran POs who have experience case management as well as pre-trial can be good sources of info</li>
-<li>Still developing policy, practices, and philosophy may make culture change easier</li>
-<li>Less tasks in comparison to supervision means faster answers to CORE questions</li>
-<li>Size of units allow for easy evaluation of unit attitudes and “institutional knowledge”</li>
-</ul>
-</div>
-</div>
-<div id="costbenefit-of-supervision" class="section level1">
-<h1>Cost/Benefit of Supervision</h1>
-<div id="cost" class="section level2">
-<h2>Cost:</h2>
-<ul>
-<li>More than 6x the discretion points of Pre-Trial means
-<ul>
-<li>Heavy lift</li>
-<li>Many tasks mean lots of conceptualization</li>
-<li>More planning for:
-<ul>
-<li>Interviews</li>
-<li>Data evaluation</li>
-<li>Analysis</li>
-</ul></li>
-</ul></li>
-<li>Field officers are already being scrutinized
-<ul>
-<li>RFK</li>
-<li>DCPOs</li>
-<li>JRA</li>
-<li>Number of units/divisions means significant differences in</li>
-<li>Institutional knowledge</li>
-<li>Office-culture issues</li>
-<li>Wide geographical areas</li>
-<li>Without special considerations, buy-in from staff will be low due to the number of other initatives</li>
-</ul></li>
-</ul>
-</div>
-<div id="benefits-1" class="section level2">
-<h2>Benefits:</h2>
-<ul>
-<li>This is our “brand”</li>
-<li>Certain costs can be transformed into benefits:
-<ul>
-<li>Officers being scrutinized can be mitigated/transformed by CORE’s
-<ul>
-<li>Radical transparency</li>
-<li>Regular and open communication</li>
-<li>Acknowledgement of field difficulties</li>
-<li>Pointed solutions</li>
-</ul></li>
-<li>Significant areas of investigation mean the task can be deconstructed into smaller tasks</li>
-</ul></li>
-<li>High levels of difficult imply significant reward for completion
-<ul>
-<li>The return on this investment would be transformative to the entire department</li>
-</ul></li>
-</ul>
-</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<p>The team is still delving into the findings. We are cleaning up our notes and looking to have them presentable to the department early in 2018. The work does not stop there. The discretion mapping team will look into specific sections of the flowchart for more detailed mapping of particular discretion as well as collecting data on how said discretion impacts young people.</p>
 </div>
 
 

@@ -199,12 +199,11 @@ It should be noted that regardless of the focus area, this project will have to 
   * Judges like ordering pre-trial services even if there are no officers to provide those services
 
 ## Benefits:
-
-• Appear to be the trend of court services
-• Veteran POs who have experience case management as well as pre-trial can be good sources of info
-• Still developing policy, practices, and philosophy may make culture change easier
-• Less tasks in comparison to supervision means faster answers to CORE questions
-• Size of units allow for easy evaluation of unit attitudes and “institutional knowledge”
+* Appear to be the trend of court services
+* Veteran POs who have experience case management as well as pre-trial can be good sources of info
+* Still developing policy, practices, and philosophy may make culture change easier
+* Less tasks in comparison to supervision means faster answers to CORE questions
+* Size of units allow for easy evaluation of unit attitudes and “institutional knowledge”
 
 # Cost/Benefit of Supervision
 ## Cost:
