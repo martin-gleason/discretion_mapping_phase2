@@ -207,8 +207,18 @@ a:visited{
 .text-container-right {
 	float: right;
 	padding: 4px 2px 2px 2px;
-	margin: 10px 50px 500px 5px;
+	margin: 10px 50px 50px 200px;
 	border: 0px;
 	border-style: solid;
 	border-color: var(--timberwolf);
+
+}
+
+.mr-big-right {
+	margin: 0px 50px 200px 200px;
+}
+
+
+.mr-big-left {
+	margin: 0px 200px 0px 0px;
 }
