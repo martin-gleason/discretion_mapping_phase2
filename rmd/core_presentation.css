@@ -88,10 +88,10 @@ font-family: 'Montserrat', sans-serif;
 		text-rendering: optimizelegibility !important;
 }
 
-ul,ol,dl,p, li{
+ul,ol,dl,p,li{
 	color: var(--black);
 	font-family: 'Raleway', sans-serif;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-align: left;
 }
 
