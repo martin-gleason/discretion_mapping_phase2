@@ -16,6 +16,7 @@ date: April 10, 2019
   --coreRed: #da705c;
   --whitesmoke: #F5F5F5;
   --timberwolf: #DAD7CD;
+  --bottleGreen: #0B6E4F;
 
 }
 
@@ -98,17 +99,27 @@ ul,ol,dl,p,li{
 	text-align: left;
 }
 
-a{
-	color: var(--blue);
+/* change the color of active or hovered links */
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light  .nav-item:focus .nav-link,
+.navbar-light  .nav-item:hover .nav-link {
+	background-color: var(--whitesmoke);
+	color: red;
 	text-decoration: underline;
 }
 
+
+a{
+	color: var(--blue);
+}
+
 a:hover{
-	color: var(--gold);
+	text-decoration: underline;
 	}
 
 a:visited{
-	color: var(--black);
+	color: var(--bottleGreen);
 }
 
 .runner {
