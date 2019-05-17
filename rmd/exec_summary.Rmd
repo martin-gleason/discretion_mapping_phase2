@@ -1,0 +1,33 @@
+---
+title: "CORE Discretion Mapping Project"
+subtitle: "Executive Summary"
+output:
+  html_document:
+    toc: true
+    toc_float:
+        collapsed: true
+        number_sections: true
+    toc_depth: 2
+    css: core_presentation.css
+---
+
+# Abstract
+From February 2017 to March 2018, members of the Committee on Results for Equity (C.O.R.E.) volunteered to "map" the decisions points in the Cook County Juvenile Court where an officer's discretion *could* have an impact on a young person. The reason for this project was twofold: Determine where officers make choices regarding the care of young people on probation and determine what, if any, impact officers’ discretion has on youth of color. Mapping the instances where officers have choices to make regarding the status, type, or level/dosage of involvement in the probation process is fundamental to answering those questions. The process in which the discretion mapping team used to analyze probation’s programs, policies, and practices regarding an officer’s discretion revealed a number of discretion points in the continuum of care, as well as areas for further study.
+
+# Scope
+It is important to note that the team did not determine whether or not officer discretion is positive or negative. The scope of this project was limited to mapping where discretion exists within the continuum of care, how discretion is guided, and if there is any data or evidence that may help show impact of discretion. 
+
+# Definition
+The first task the team addressed was our definition of discretion. The team quickly settled on the following: Discretion refers to the choices made by the officer when implementing a policy, practice, or referring to a program. Using this definition, the team was able to fully examine the probation process by building a model of the continuum of care. The team took the attached Cook County Juvenile Probation Flowchart of General Operations and divided it into three sections: Pre-Trial, Trial, and Service. This model is not perfect, nor was it intended to be. The model was created to allow the team to map discretion points, collect information, and note areas for further study. This process allowed for the team to look at officer discretion from a variety of perspectives while still keeping the entire probation system in mind.
+
+# Method
+To spur discussions and generate questions, the team imagined a young person going through our model and asking questions on what they would encounter through each section or court practice. With these baseline questions, members of the team interviewed a variety of staff to discuss “text book” methods of conducting division business as well as current and best practices. 
+
+# Results
+
+All told, there were approximately 45 discretion points mapped in the continuum of care. The number of discretion points is an estimate due to the differences in counting discretion points: For example, the way in which interviews for assessments (socials, supplemental socials, case plans, sanctions, etc.) can be counted as four discretion points or as one discretion point that exists across the spectrum of programming. The findings were clear: Discretion points exist from detention screening to case termination, and every division in between.
+
+Of particular note: Even “objective” measures allow for discretion. An example can be found in the in detention screening process. Per policy, officers are required to use their discretion when dealing with a score from 8 to 14. Another example is in the previous risk assessment tool, the YASI. While the officer is given guidelines on how to score each item, answers depend on officers’ judgement when scoring these items. Time will tell if the new tool, the JRA, will have a similar impact on discretion points. Since even the tools officers use in providing and documenting care have discretion points, our model allowed the team to map where points exist and gave guidance on how to proceed between each division and department within the court.
+
+# Conclusion
+The purpose of this project was to map where discretion exists. To this end, the project has been successful. A high-level view of the discretion points in the probation process has been developed, and can be used to provide insight into how best to inform officer discretion. But the work continues: Phase 2 of this project will focus on the polices, procedures, and protocols of case management. This phase will deliver a more detailed map and methods to analyze the impact that officer's discretion has on client outcomes.

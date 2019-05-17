@@ -1,18 +1,22 @@
-/* importing the following fonts: Nobile, lato. */
+/* importing the following fonts: Nobile, lato. 
+
+date: April 10, 2019
+*/
 
 @import url('https://fonts.googleapis.com/css?family=Nobile|Lato|Raleway|Montserrat');
 
 
 :root{
-	--blue: #090c9b;
+	--blue: #0A2463;
   --grey: #837a75;
-  --black: #0e0705;
+  --black: #02111B;
   --green: #a5d3c1;
   --gold: #eebf48;
-  --offwhite: #FCFEFB;
-  --notwhite: #5c5c57;
+  --offwhite: #EEECE8;
   --coreRed: #da705c;
   --whitesmoke: #F5F5F5;
+  --timberwolf: #DAD7CD;
+  --bottleGreen: #0B6E4F;
 
 }
 
@@ -22,7 +26,7 @@ body{
 }
 
 .remark-container{
-	background-color: var(--notwhite);
+	background-color: var(--offwhite);
 }
 
 .title-slide content {
@@ -44,7 +48,7 @@ body{
 
 .remark-slide table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background-color:var(--whitesmoke)}
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background-color:var(--offwhite);}
 
 
 
@@ -57,13 +61,13 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 	color: var(--coreRed);
 	font-size: 1.9em;
-	text-align: center;
+	text-align: left;
 		text-rendering: optimizelegibility !important;
 
 }
 
 h2{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: var(--blue);
 	font-size: 1.75em;
 	text-align: left;
@@ -72,37 +76,66 @@ h2{
 }
 
 h3{
+<<<<<<< HEAD:core_presentation.css
 font-family: 'Raleway', sans-serif;
 	color: var(--coreRed);
 	text-align: center;
 	font-size: 1.5em;
+=======
+font-family: 'Montserrat', sans-serif;
+	color: var(--coreRed);
+	text-align: left;
+	font-size: 1.4em;
+	font-style: italic;
+>>>>>>> master:rmd/core_presentation.css
 		text-rendering: optimizelegibility !important;
 }
 
 h4{
+<<<<<<< HEAD:core_presentation.css
 font-family: 'Raleway', sans-serif;
 	color: var(--coreRed);
+=======
+font-family: 'Montserrat', sans-serif;
+	color: var(--blue);
+>>>>>>> master:rmd/core_presentation.css
 	text-align: left;
 	font-size: 1.45em;
 		text-rendering: optimizelegibility !important;
 }
 
-ul,ol,dl,p{
+ul,ol,dl,p,li{
 	color: var(--black);
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;
+	font-size: 1.2em;
 	text-align: left;
 }
 
+/* change the color of active or hovered links */
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light  .nav-item:focus .nav-link,
+.navbar-light  .nav-item:hover .nav-link {
+	background-color: var(--whitesmoke);
+	color: red;
+	text-decoration: underline;
+}
+
+
 a{
 	color: var(--blue);
+}
+
+a:hover{
 	text-decoration: underline;
 	}
 
-a:hover{
-	color: var(--gold);
-	}
-
+<<<<<<< HEAD:core_presentation.css
+=======
+a:visited{
+	color: var(--bottleGreen);
+}
+>>>>>>> master:rmd/core_presentation.css
 
 .runner {
 	background-color: #F77A00;
@@ -128,9 +161,23 @@ a:hover{
 .image-ten{
 	height: 10%;
 	width: 10%;
+}
+
+<<<<<<< HEAD:core_presentation.css
+
+=======
+.left{
+	text-align:left !important;
 	}
-
-
+	
+.center{
+	text-align:center !important;
+	}
+	
+.right{
+	text-align: right;
+	}
+>>>>>>> master:rmd/core_presentation.css
 
 .footnote{
 	color:#193993;
@@ -140,7 +187,8 @@ a:hover{
 }
 
 .v-middle{
-	vertical-align: middle;}
+	vertical-align: middle;
+}
 	
 .right-code {
   width: 38%;
@@ -164,4 +212,46 @@ a:hover{
   width: 60%;
   float: right;
   padding-left: 2%;
+}
+
+.list-group-item {
+	font-family: Montserrat;
+	text-decoration: underline;
+	position: relative
+	display: block;
+	padding: 10px 15px;
+	margin-bottom: 1px;
+	background-color: var(--whitesmoke);
+	border: 10px;
+	color: var(--black);
+}
+
+
+.text-container-left {
+	float: left;
+	padding: 4px 2px 2px 2px;
+	margin: 10px 400px 10px 50px;
+	border: 0px;
+	border-style: solid;
+	border-color: var(--timberwolf);
+}
+
+
+.text-container-right {
+	float: right;
+	padding: 4px 2px 2px 2px;
+	margin: 10px 50px 50px 200px;
+	border: 0px;
+	border-style: solid;
+	border-color: var(--timberwolf);
+
+}
+
+.mr-big-right {
+	margin: 0px 50px 200px 200px;
+}
+
+
+.mr-big-left {
+	margin: 0px 200px 0px 0px;
 }
